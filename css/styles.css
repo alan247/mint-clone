@@ -28,12 +28,41 @@ a {
 }
 
 .b-icons {
-
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin-top: 0;
 }
 
-.b-icons__item {
-
+.b-icons__item{
+	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/ecosystem_logos_new.png);
+	background-repeat: none;
+	list-style: none;
+	margin-right: 9px;
 }
+
+.b-icons__item:last-child{
+	margin-right: 0;
+}
+
+.b-icons__item--mint{
+	background-position:-254px -56px;
+	width: 64px;
+	height: 23px;
+}
+
+.b-icons__item--quickbooks{
+	background-position: 447px -56px;
+	width: 125px;
+	height: 23px;
+}
+
+.b-icons__item--turbotax{
+	background-position: 0 -56px;
+	width: 101px;
+	height: 23px;
+}
+
 
 @media (min-width: 769px) {
   .b-sign-in {
