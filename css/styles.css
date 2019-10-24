@@ -2,11 +2,17 @@ body {
   background-color: #eceef1;
   padding: 0;
   margin: 0;
+  font-family: AvenirNext, Avenir, Helvetica;
 }
 
 a {
   color: #0077c5;
   text-decoration: none;
+  font-size: 12px;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .b-sign-in{
@@ -63,6 +69,41 @@ a {
 	height: 23px;
 }
 
+.b-signup-container {
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #c7c7c7;
+  background-color: #fff;
+  width: 380px;
+  box-sizing: border-box;
+}
+
+.b-signup-container__header-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 26.4px;
+  text-align: center;
+  display: block;
+  color: #4c4c4c;
+}
+
+.b-signup-container__header-description {
+  display: block;
+  font-size: 14px;
+  color: #4c4c4c;
+  line-height: 16.8px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.b-signup-container__header-more-link {
+  display: block;
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+
+
 
 @media (min-width: 769px) {
   .b-sign-in {
@@ -73,7 +114,6 @@ a {
 
   .b-sign-in__text{
     color: #505050;
-    font-family: AvenirNext, Avenir, Helvetica;
     font-size: 12px;
     line-height: 18px;
   }
