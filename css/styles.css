@@ -15,6 +15,16 @@ a:hover {
   text-decoration: underline;
 }
 
+input{
+	padding: 0 6px 0 8px;
+	border: 1px solid #c1c5c8;
+	border-radius: 3px;
+	font-size: 16.8px;
+	line-height: 21.84px;
+	height: 34px;
+	width: 100%;
+}
+
 .b-sign-in{
   display: none
 }
@@ -78,6 +88,10 @@ a:hover {
   box-sizing: border-box;
 }
 
+.b-signup-container__header{
+	padding-bottom: 20px;
+}
+
 .b-signup-container__header-title {
   margin-bottom: 20px;
   font-size: 24px;
@@ -102,6 +116,24 @@ a:hover {
   line-height: 14.4px;
 }
 
+.b-form__field{
+	border: none;
+	padding-bottom: 30px;
+}
+
+.b-form__label{
+	padding-bottom: 6px;
+	color:#404040;
+	display: block;
+	font-size: 14px;
+	line-height: 25px;
+}
+.b-form__phone-text{
+	padding:5px 0;
+	font-size: 10px;
+	line-height: 15px;
+	color: #444 ;
+}
 
 
 

@@ -38,18 +38,22 @@
         </span>
       </header>
 
-      <form action="#">
-        <fieldset>
-          <label for="email">Email address</label>
+      <form action="#" class="b-form">
+        <fieldset class="b-form__field">
+          <label for="email" class="b-form__label">Email address</label>
           <input type="email" id="email">
         </fieldset>
-        <fieldset>
-          <label for="phone">Phone (recommended)</label>
+        <fieldset class="b-form__field">
+          <label for="phone" class="b-form__label">Phone (recommended)</label>
           <input type="tel" id="phone">
+          <span class="b-form__phone-text">Standart call, messaging or data rates may apply</span>
         </fieldset>
-        <fieldset>
-          <label for="password"></label>
-          <input type="password">
+        <fieldset class="b-form__field">
+          <label for="password" class="b-form__label">Password/label>
+          	<div class="b-form__password-container">
+          		<input type="password">
+          		<span class="b-form__password-icon"></span>
+          	</div>
         </fieldset>
       </form>
 
