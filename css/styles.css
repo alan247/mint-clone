@@ -29,8 +29,8 @@ input {
 	width: 100%;
 }
 
-.b-sign-in{
-  display: none
+.b-sign-in {
+  display: none;
 }
 
 .b-header {
@@ -54,30 +54,30 @@ input {
 	margin: 0 0 18px;
 }
 
-.b-icons__item{
+.b-icons__item {
 	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/ecosystem_logos_new.png);
 	background-repeat: no-repeat;
 	list-style: none;
 	margin-right: 9px;
 }
 
-.b-icons__item:last-child{
+.b-icons__item:last-child {
 	margin-right: 0;
 }
 
-.b-icons__item--mint{
-	background-position:-254px -56px;
-	width: 64px;
-	height: 23px;
+.b-icons__item--mint {
+  background-position: -254px -56px;
+  width: 64px;
+  height: 23px;
 }
 
-.b-icons__item--quickbooks{
+.b-icons__item--quickbooks {
   background-position: -115px -56px;
 	width: 125px;
 	height: 23px;
 }
 
-.b-icons__item--turbotax{
+.b-icons__item--turbotax {
 	background-position: 0 -56px;
 	width: 101px;
 	height: 23px;
@@ -120,23 +120,24 @@ input {
   line-height: 14.4px;
 }
 
-.b-form__field{
+.b-form__field {
 	border: none;
 	padding: 0 0 30px;
 }
 
-.b-form__label{
+.b-form__label {
 	padding-bottom: 6px;
-	color:#404040;
+  color: #404040;
 	display: block;
 	font-size: 14px;
 	line-height: 25px;
 }
-.b-form__phone-text{
+
+.b-form__phone-text {
 	padding:5px 0;
 	font-size: 10px;
 	line-height: 15px;
-	color: #444 ;
+	color: #444;
   margin: 6px 0 2px;
   display: block;
 }
@@ -174,7 +175,7 @@ input {
   color: #fff;
 }
 
-.b-form__button-icon{
+.b-form__button-icon {
 	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
 	height: 15.75px;
 	margin: -3px 7px 0 0;
@@ -182,13 +183,13 @@ input {
 	width: 12.5938px;
 }
 
-.b-form__footer{
+.b-form__footer {
 	margin-top: 39px;
   text-align: center;
 }
 
 .b-form__footer-text {
-  color: #757575  ;
+  color: #757575;
   font-size: 12px;
   line-height: 18px;
   text-align: center;
@@ -221,8 +222,8 @@ input {
 .b-footer__links {
 	display: flex;
 	list-style: none;
-	margin:0;
-	padding:0;
+  margin: 0;
+  padding: 0;
 	justify-content: center;
 }
 
@@ -244,7 +245,6 @@ input {
   font-size: 12px;
   line-height: 18px;
   text-align: center;
-
 }
 
 @media (min-width: 769px) {
@@ -254,17 +254,17 @@ input {
     justify-content: flex-end;
   }
 
-  .b-sign-in__text{
+  .b-sign-in__text {
     color: #505050;
     font-size: 12px;
     line-height: 18px;
   }
 
-  .b-sign-in__forgot{
+  .b-sign-in__forgot {
     display: block;
   }
 
-  .b-sign-in__button{
+  .b-sign-in__button {
     color: #fff;
     background-color: #0077c5;
     border: 1px solid #4c4c4c;
@@ -274,7 +274,8 @@ input {
     font-size: 13.5px;
     margin-left: 10px;
   }
-  .b-sign-in__button-lock{
+
+  .b-sign-in__button-lock {
     background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
     margin: 2px 4px 0 0;
     width: 10.8px;
