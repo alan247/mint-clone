@@ -177,10 +177,63 @@ input {
 	height: 15.75px;
 	margin: -3px 7px 0 0;
 	background-size: contain;
-	width: 12.5938px;	
+	width: 12.5938px;
 }
-.b-form-footer{
-	margin-top: 30px;
+
+.b-form__footer{
+	margin-top: 41px;
+  text-align: center;
+}
+
+.b-form__footer-text {
+  color: #757575  ;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  font-style: italic;
+}
+
+.b-form__captcha {
+  background-color: #eceef1;
+  margin: 32px -30px -30px;
+  padding: 16px;
+  text-align: center;
+}
+
+.b-form__captcha-text {
+  font-size: 10px;
+  color: #8d9096;
+  line-height: 15px;
+}
+
+.b-form__captcha-link {
+  font-size: 10px;
+}
+
+.b-footer {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 90%;
+}
+
+.b-footer__links {
+
+}
+
+.b-footer__link-item {
+
+}
+
+.b-footer__link {
+
+}
+
+.b-footer__legal {
+  display: block;
+  color: #505050;
+  font-size: 12px;
+  line-height: 18px;
+
 }
 
 @media (min-width: 769px) {
