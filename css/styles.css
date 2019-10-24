@@ -51,7 +51,7 @@ input {
 	display: flex;
 	justify-content: center;
 	padding: 0;
-	margin-top: 0 0 18px;
+	margin: 0 0 18px;
 }
 
 .b-icons__item{
@@ -219,15 +219,23 @@ input {
 }
 
 .b-footer__links {
-
+	display: flex;
+	list-style: none;
+	margin:0;
+	padding:0;
+	justify-content: center;
 }
 
 .b-footer__link-item {
+	padding-left: 10px;
+}
 
+.b-footer__link-item:first-child {
+	padding-left: 0;
 }
 
 .b-footer__link {
-
+	color: #505050;
 }
 
 .b-footer__legal {
@@ -235,6 +243,7 @@ input {
   color: #505050;
   font-size: 12px;
   line-height: 18px;
+  text-align: center;
 
 }
 
