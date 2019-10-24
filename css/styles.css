@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: AvenirNext, Avenir, Helvetica;
+  font-family: AvenirNext, Avenir, Helvetica, sans-serif;
 }
 
 body {
@@ -159,7 +159,7 @@ input {
 }
 
 .b-form__button {
-	display: flex;
+  display: flex;
   background-color: #0077c5;
   border: 1px solid #0077c5;
   border-radius: 4px;
@@ -176,15 +176,15 @@ input {
 }
 
 .b-form__button-icon {
-	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
-	height: 15.75px;
-	margin: -3px 7px 0 0;
-	background-size: contain;
-	width: 12.5938px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
+  height: 15.75px;
+  margin: -3px 7px 0 0;
+  background-size: contain;
+  width: 12.5938px;
 }
 
 .b-form__footer {
-	margin-top: 39px;
+  margin-top: 39px;
   text-align: center;
 }
 
@@ -220,23 +220,23 @@ input {
 }
 
 .b-footer__links {
-	display: flex;
-	list-style: none;
+  display: flex;
+  list-style: none;
   margin: 0;
   padding: 0;
-	justify-content: center;
+  justify-content: center;
 }
 
 .b-footer__link-item {
-	padding-left: 10px;
+  padding-left: 10px;
 }
 
 .b-footer__link-item:first-child {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .b-footer__link {
-	color: #505050;
+  color: #505050;
 }
 
 .b-footer__legal {
