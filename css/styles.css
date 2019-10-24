@@ -1,3 +1,34 @@
 body {
   background-color: #eceef1;
 }
+
+.b-sign-in{
+	display: flex;
+}
+
+.b-sign-in__text{
+	color: #505050;
+	font-family: AvenirNext, Avenir, Helvetica;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.b-sign-in__forgot{
+	display: block;
+}
+
+.b-sign-in__button{
+	color: #fff;
+	background-color: #0077c5;
+	border: 1px solid #4c4c4c;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 0 20px;
+	font-size: 13.5px;
+}
+.b-sign-in__button-lock{
+	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
+	margin: 2px 4px 0 0;
+	width: 10.8px;
+	height: 13.5px;
+}
