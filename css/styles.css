@@ -156,17 +156,31 @@ input {
 }
 
 .b-form__button {
-  background-color: #0077c5  ;
+	display: flex;
+  background-color: #0077c5;
+  border: 1px solid #0077c5;
   border-radius: 4px;
-  padding: 6px 12px;
-  text-align: center;
+  padding: 11px 0;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .b-form__button-text {
   font-size: 15.75px;
   line-height: 22.5px;
   color: #fff;
+}
+
+.b-form__button-icon{
+	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
+	height: 15.75px;
+	margin: -3px 7px 0 0;
+	background-size: contain;
+	width: 12.5938px;	
+}
+.b-form-footer{
+	margin-top: 30px;
 }
 
 @media (min-width: 769px) {
